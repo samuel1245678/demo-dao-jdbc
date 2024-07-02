@@ -1,5 +1,4 @@
 package db;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
@@ -57,7 +56,6 @@ public class DB {
 			}
 		}
 	}
-
 	public static void closeResultSet(ResultSet rs) {
 		if (rs != null) {
 			try {
